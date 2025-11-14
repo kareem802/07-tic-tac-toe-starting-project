@@ -3,7 +3,7 @@ import Player from "./components/Player";
 import GameBoard from "./components/GameBoard";
 import GameOver from "./components/GameOver";
 import Log from "./components/Log";
-import { deriveWinner, setBoard, deriveActivePlayer } from "./assets/functions";
+import { deriveWinner, setBoard, deriveActivePlayer } from "./utils/functions";
 const PLAYERS = {
   X: "Player 1",
   O: "Player 2",
